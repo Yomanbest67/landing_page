@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Area */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header-link {
+    padding: 10px;
+    margin: 0 30px;
+}
+
+.header-link > a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.header > .logo {
+    margin: 0 30px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Info with Photo Area */
+
+.head-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #1F2937;
+}
+
+.head-info > .info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 40px;
+    width: 300px;
+    color: white;
+}
+
+.head-info > .info > button {
+    height: 40px;
+    width: 100px; 
+    padding: 10px;
+    background-color: #3882F6; 
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-photo > img {
+    height: 200px;
+    width: 400px;
+}
+
+/* Random Information Area */
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.random-info > .title {
+    margin-bottom: 40px;
+}
+
+.random-info > .photos {
+    display: flex;
+}
+
+.icon {
+    width: 200px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon > img {
+    height: 120px;
+    width: 120px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* Quote Area */
+
+.quote-area {
+    padding: 50px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote > .author {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Sign-up Banner Area */
+
+.signup-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.banner {
+    display: flex;
+    gap: 30%;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 6px;
+    padding: 50px;
+    width: 50%;
+}
+
+.banner > .text {
+    color: white;
+}
+
+.text > .heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner > button {
+    color: white;
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+}
+
+/* Footer Area */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.footer > .footer_text {
+    color: white;
+}
